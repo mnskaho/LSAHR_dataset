@@ -7,11 +7,11 @@ Due to GitHub file size limitations, the datasets are not hosted directly in thi
 They are provided as Excel files (XLSX) and can be downloaded using the links below.
 
 - **Balanced dataset (XLSX format)**  
-  Size: ~115 MB  
+  Size: ~20 MB  
   👉 [Download here]([https://your-link-balanced-xlsx](https://docs.google.com/spreadsheets/d/11owlQc4Mw2Iym8M4mFqSCykrRICMqgJe/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true))
 
 - **Unbalanced dataset (XLSX format)**  
-  Size: ~224 MB  
+  Size: ~40 MB  
   👉 [Download here]([https://your-link-unbalanced-xlsx](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true))
 
 ### Dataset Description
