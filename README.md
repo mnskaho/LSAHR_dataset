@@ -1,40 +1,134 @@
-# LSAHR_dataset
-LSAHR (Large-Scale Arabic Hotel Reviews) is a large-scale dataset containing approximately 292,000 Arabic hotel reviews collected from Booking.com. It includes ratings (1–10), user and hotel metadata, as well as two dataset versions—balanced and unbalanced—designed for sentiment analysis and recommendation systems.
+# LSAHR Dataset
 
-## Dataset Download (XLSX Format)
+**LSAHR** — *Large-Scale Arabic Hotel Reviews* — is a large-scale Arabic hotel review dataset collected from **Booking.com**.
+It contains approximately **292,000 Arabic hotel reviews**, including hotel ratings, user metadata, hotel information, and review content.
 
-Due to GitHub file size limitations, the datasets are not hosted directly in this repository.
-They are provided as Excel files (XLSX) and can be downloaded using the links below.
+The dataset is designed for research and development in:
 
-- **Balanced dataset (XLSX format)**  
-  Size: ~28,80 MB  
-  👉 [Download here](https://docs.google.com/spreadsheets/d/1_mINNq7UQbaI4uh5NP2V1jLHDx7fo01X/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+* Arabic Sentiment Analysis
+* Natural Language Processing — NLP
+* Recommendation Systems
+* Hotel Review Mining
+* Arabic Text Classification
 
-- **Unbalanced dataset (XLSX format)**  
-  Size: ~40 MB  
-  👉 [Download here](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+---
 
-### Dataset Description
-- File format: XLSX (Microsoft Excel)
-- Language: Arabic
-- Number of reviews: 292460 unbalanced / 122679 balanced
-- Columns:
-    hotel_id
-    hotel_name
-    location
-    distance_from_city_center
-    country
-    hotel_rating
-    price
-    user_id
-    username
-    nationality
-    user_rating
-    review
-    review_date
-    traveler_type
-    stay_duration
+## Dataset Versions
 
-### Notes
-- Files are UTF-8 encoded.
-- Each row corresponds to one review.
+The dataset is provided in two versions:
+
+| Version            | Number of Reviews | File Size | Format |
+| ------------------ | ----------------: | --------: | ------ |
+| Balanced Dataset   |   122,679 reviews | ~28.80 MB | XLSX   |
+| Unbalanced Dataset |   292,460 reviews |    ~40 MB | XLSX   |
+
+---
+
+## Dataset Download
+
+Due to GitHub file size limitations, the dataset files are not hosted directly in this repository.
+You can download the Excel files using the links below.
+
+### Balanced Dataset
+
+**Format:** XLSX
+**Size:** ~28.80 MB
+**Number of reviews:** 122,679
+
+[Download Balanced Dataset](https://docs.google.com/spreadsheets/d/1_mINNq7UQbaI4uh5NP2V1jLHDx7fo01X/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+
+### Unbalanced Dataset
+
+**Format:** XLSX
+**Size:** ~40 MB
+**Number of reviews:** 292,460
+
+[Download Unbalanced Dataset](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+
+---
+
+## Dataset Description
+
+Each row in the dataset represents one hotel review written in Arabic.
+
+### General Information
+
+| Property     | Description                                              |
+| ------------ | -------------------------------------------------------- |
+| Dataset name | LSAHR — Large-Scale Arabic Hotel Reviews                 |
+| Source       | Booking.com                                              |
+| Language     | Arabic                                                   |
+| File format  | Microsoft Excel — XLSX                                   |
+| Encoding     | UTF-8                                                    |
+| Data type    | Hotel reviews, ratings, user metadata, hotel metadata    |
+| Main tasks   | Sentiment analysis, recommendation systems, NLP research |
+
+---
+
+## Columns
+
+The dataset contains the following columns:
+
+| Column Name                 | Description                                    |
+| --------------------------- | ---------------------------------------------- |
+| `hotel_id`                  | Unique identifier of the hotel                 |
+| `hotel_name`                | Name of the hotel                              |
+| `location`                  | Hotel location                                 |
+| `distance_from_city_center` | Distance between the hotel and the city center |
+| `country`                   | Country of the hotel                           |
+| `hotel_rating`              | Hotel rating                                   |
+| `price`                     | Hotel price information                        |
+| `user_id`                   | Unique identifier of the reviewer              |
+| `username`                  | Username of the reviewer                       |
+| `nationality`               | Nationality of the reviewer                    |
+| `user_rating`               | Rating given by the user                       |
+| `review`                    | Arabic text review written by the user         |
+| `review_date`               | Date of the review                             |
+| `traveler_type`             | Type of traveler                               |
+| `stay_duration`             | Duration of the stay                           |
+
+---
+
+## Possible Use Cases
+
+This dataset can be used for several machine learning and NLP tasks, including:
+
+* Arabic sentiment classification
+* Review rating prediction
+* Hotel recommendation systems
+* Opinion mining
+* User behavior analysis
+* Arabic text preprocessing and analysis
+* Benchmarking Arabic NLP models
+
+---
+
+## Notes
+
+* The dataset is provided in **XLSX format**.
+* The review text is written in **Arabic**.
+* Each row corresponds to one hotel review.
+* Two versions are available: **balanced** and **unbalanced**.
+* The files are hosted externally due to GitHub file size limitations.
+
+---
+
+## Citation
+
+If you use this dataset in your research or project, please cite or reference this repository.
+
+```bibtex
+@misc{lsahr_dataset,
+  title        = {LSAHR: Large-Scale Arabic Hotel Reviews Dataset},
+  author       = {Mns Hoka},
+  year         = {2026},
+  note         = {Arabic hotel reviews dataset collected from Booking.com},
+  howpublished = {\url{https://github.com/mnskaho/LSAHR_dataset}}
+}
+```
+
+---
+
+## License
+
+Please check the repository license before using this dataset for academic, research, or commercial purposes.
