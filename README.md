@@ -86,6 +86,7 @@ The dataset contains the following columns:
 | `review_date`               | Date of the review                             |
 | `traveler_type`             | Type of traveler                               |
 | `stay_duration`             | Duration of the stay                           |
+| `polarity_score`            | Sentiment polarity score of the review         |
 
 ---
 
