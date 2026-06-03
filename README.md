@@ -21,7 +21,7 @@ The dataset is provided in two versions: **balanced** and **unbalanced**.
 | Version            | Number of Reviews | File Size | Format |
 | ------------------ | ----------------: | --------: | ------ |
 | Balanced Dataset   |   122,679 reviews | ~28.80 MB | XLSX   |
-| Unbalanced Dataset |   292,460 reviews |    ~40 MB | XLSX   |
+| Unbalanced Dataset |   292,462 reviews |    ~40 MB | XLSX   |
 
 ---
 
