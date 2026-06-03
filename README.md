@@ -148,4 +148,3 @@ This dataset can be used for several machine learning and NLP tasks, including:
 * The column `polarity_score` can be used as the sentiment label for classification tasks.
 
 
-Please check the repository license before using this dataset for academic, research, or commercial purposes.
