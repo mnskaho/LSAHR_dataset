@@ -75,7 +75,7 @@ You can download the Excel files using the links below.
 
 **Format:** XLSX
 **Size:** ~40 MB
-**Number of reviews:** 292,460
+**Number of reviews:** 292,462
 
 [Download Unbalanced Dataset](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
 
