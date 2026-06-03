@@ -1,7 +1,8 @@
 # LSAHR Dataset
 
 **LSAHR** — *Large-Scale Arabic Hotel Reviews* — is a large-scale Arabic hotel review dataset collected from **Booking.com**.
-It contains approximately **292,000 Arabic hotel reviews**, including hotel ratings, user metadata, hotel information, and review content.
+
+It contains approximately **292,000 Arabic hotel reviews**, including hotel ratings, user metadata, hotel information, review content, and sentiment polarity scores.
 
 The dataset is designed for research and development in:
 
@@ -15,7 +16,7 @@ The dataset is designed for research and development in:
 
 ## Dataset Versions
 
-The dataset is provided in two versions:
+The dataset is provided in two versions: **balanced** and **unbalanced**.
 
 | Version            | Number of Reviews | File Size | Format |
 | ------------------ | ----------------: | --------: | ------ |
@@ -24,9 +25,42 @@ The dataset is provided in two versions:
 
 ---
 
+## Ratings Distribution
+
+The following figures show the distribution of review polarities in both dataset versions.
+
+### Balanced Dataset Distribution
+
+The balanced dataset contains an equal distribution of reviews across the three sentiment classes: **Negative**, **Neutral**, and **Positive**.
+
+![Balanced Ratings Distribution](rating_distribution_balanced.jpg)
+
+| Sentiment Class | Number of Reviews | Percentage |
+| --------------- | ----------------: | ---------: |
+| Negative        |            40,893 |      33.3% |
+| Neutral         |            40,893 |      33.3% |
+| Positive        |            40,893 |      33.3% |
+
+---
+
+### Unbalanced Dataset Distribution
+
+The unbalanced dataset reflects the original distribution of reviews, where **Positive** reviews represent the majority of the dataset.
+
+![Unbalanced Ratings Distribution](rating_distribution_Unbalanced.jpg)
+
+| Sentiment Class | Number of Reviews | Percentage |
+| --------------- | ----------------: | ---------: |
+| Negative        |            40,894 |      14.0% |
+| Neutral         |            50,734 |      17.3% |
+| Positive        |           200,832 |      68.7% |
+
+---
+
 ## Dataset Download
 
 Due to GitHub file size limitations, the dataset files are not hosted directly in this repository.
+
 You can download the Excel files using the links below.
 
 ### Balanced Dataset
@@ -111,3 +145,7 @@ This dataset can be used for several machine learning and NLP tasks, including:
 * Each row corresponds to one hotel review.
 * Two versions are available: **balanced** and **unbalanced**.
 * The files are hosted externally due to GitHub file size limitations.
+* The column `polarity_score` can be used as the sentiment label for classification tasks.
+
+
+Please check the repository license before using this dataset for academic, research, or commercial purposes.
