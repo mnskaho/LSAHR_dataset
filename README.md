@@ -2,7 +2,7 @@
 
 **LSAHR** — *Large-Scale Arabic Hotel Reviews* — is a large-scale Arabic hotel review dataset collected from **Booking.com**.
 
-It contains approximately **292,000 Arabic hotel reviews**, including hotel ratings, user metadata, hotel information, review content, and sentiment polarity scores.
+It contains approximately **292,462 Arabic hotel reviews**, including hotel ratings, user metadata, hotel information, review content, and sentiment polarity scores.
 
 The dataset is designed for research and development in:
 
