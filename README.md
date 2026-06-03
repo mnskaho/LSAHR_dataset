@@ -43,7 +43,7 @@ You can download the Excel files using the links below.
 **Size:** ~40 MB
 **Number of reviews:** 292,460
 
-[Download Unbalanced Dataset]((https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+[Download Unbalanced Dataset](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
 
 ---
 
@@ -110,25 +110,3 @@ This dataset can be used for several machine learning and NLP tasks, including:
 * Each row corresponds to one hotel review.
 * Two versions are available: **balanced** and **unbalanced**.
 * The files are hosted externally due to GitHub file size limitations.
-
----
-
-## Citation
-
-If you use this dataset in your research or project, please cite or reference this repository.
-
-```bibtex
-@misc{lsahr_dataset,
-  title        = {LSAHR: Large-Scale Arabic Hotel Reviews Dataset},
-  author       = {Mns Hoka},
-  year         = {2026},
-  note         = {Arabic hotel reviews dataset collected from Booking.com},
-  howpublished = {\url{https://github.com/mnskaho/LSAHR_dataset}}
-}
-```
-
----
-
-## License
-
-Please check the repository license before using this dataset for academic, research, or commercial purposes.
