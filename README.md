@@ -35,7 +35,7 @@ You can download the Excel files using the links below.
 **Size:** ~28.80 MB
 **Number of reviews:** 122,679
 
-[Download Balanced Dataset](https://docs.google.com/spreadsheets/d/1_mINNq7UQbaI4uh5NP2V1jLHDx7fo01X/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+[Download Balanced Dataset](https://docs.google.com/spreadsheets/d/1adzwqzxjernhYZgEBHABC8iRptAi5fvI/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
 
 ### Unbalanced Dataset
 
@@ -43,7 +43,7 @@ You can download the Excel files using the links below.
 **Size:** ~40 MB
 **Number of reviews:** 292,460
 
-[Download Unbalanced Dataset](https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
+[Download Unbalanced Dataset]((https://docs.google.com/spreadsheets/d/13QPJ5sCj_hsfkBfXisuDiJFJ5aWTCZRi/edit?usp=sharing&ouid=101808398992602355776&rtpof=true&sd=true)
 
 ---
 
